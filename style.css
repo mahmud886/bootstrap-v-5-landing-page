@@ -1,0 +1,244 @@
+body,h1, h2, h3, h4, h5, h6{
+  font-family: 'Work Sans', sans-serif;
+}
+img{
+  max-width: 100%;
+}
+
+/* navBar */
+.myNavBar{
+
+}
+
+.myNavBar .navbar-brand{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.myNavBar span{
+  display: inline-block;
+  background: #6278df;
+  height: 40px;
+  width: 43px;
+  text-align: center;
+  font-size: 28px;
+  border-radius: 10px;
+}
+
+.myNavBar .nav-link{
+    padding-right: 20px !important;
+    padding-left: 20px !important;
+}
+
+/* Slider-section */
+
+.slider-section{
+  background: url(/images/mbr-10.jpg) no-repeat center center;
+  padding: 200px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.slider-section::after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+
+.slider-caption h4{
+  margin-bottom: 35px;
+}
+.slider-caption h2{
+  margin-bottom: 40px;
+  font-size: 40px;
+}
+
+.slider-caption .btn{
+  padding: 10px 40px !important;
+  background: #5ba533;
+  border-color: #5ba533;
+  font-weight:600 ;
+}
+
+.slider-caption .btn:hover{
+  
+  background: black;
+  
+}
+
+.slider-caption .form-control{
+  padding: 10px 20px;
+}
+
+
+
+/* Number Counter */
+
+
+
+/* About section */
+
+.about-section{
+  background: #f7f9ff;
+}
+.about-text-left{
+  margin-top: 120px;
+}
+.about-text-left .lead{
+  font-size: 25px;
+  line-height: 1.6;
+}
+
+
+/* Feature section */
+
+
+.featured-section{
+  padding: 50px 20px;
+}
+.single-col {
+  
+}
+.single-col img{
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 5px 0 0 5px;
+}
+
+.card-shadows{
+  
+  border: none;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+
+
+
+/* Portfolio section */
+
+
+
+.portfolio-items{
+  
+}
+.portfolio-items a{
+  display: block;
+  position: relative;
+}
+.portfolio-items a::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(98,120, 223, 0.6);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.5s;
+}
+.portfolio-items:hover a::after{
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+/* Pricing */
+
+.pricing-item{
+  border-radius: 5px;
+  background: #fff;
+  padding: 50px;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.2);
+}
+.pricing-item h1{
+
+}
+.pricing-item h5{
+
+}
+.pricing-item ul{
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0;
+  margin-bottom: 40px;
+}
+.pricing-item ul li{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font: size 10px;
+}
+.pricing-item ul li span{
+  color:#657be0;
+  font-weight: bold;
+  width: 40px;
+  display: inline-block;
+}
+.pricing-item-btn a{
+  border-color: #657be0;
+  color: #657be0;
+  padding: 14px 30px;
+  font-size: 25px;
+  box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+/* Testimonial */
+.author-info{
+  width: 250px;
+  margin: auto;
+}
+.author-info img{
+  width: 75px;
+  margin-right: 15px;
+}
+
+.user-details{
+  text-align: left;
+  position: relative;
+  top:12px ;
+}
+
+
+
+/* About section */
+
+.about-section{
+  background: #f7f9ff;
+  margin: 100px 0;
+
+}
+
+
+.about-item{
+  
+}
+.about-item img{
+  width: 150px;
+  margin-top: -50px;
+  margin-left: 20px;
+}
+.about-item{
+
+}
+
+
+
+
+
+
